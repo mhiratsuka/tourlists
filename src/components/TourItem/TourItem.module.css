@@ -1,0 +1,169 @@
+.TourItem {
+    padding: 0 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.ImageContainer {
+    width: 50%;
+}
+
+.ContentMain {
+    width: 35%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.ContentMain h2 {
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Rating {
+    margin-bottom: 10px;
+}
+
+.RatingIcon {
+    vertical-align: bottom;
+}
+
+.RatingCount {
+    padding-left: 10px;
+}
+
+.Description {
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    font-size: 16px;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.ContentSide {
+    width: 15%;
+}
+
+.Cost {
+    margin: 30px 0 10px;
+    font-size: 16px;
+}
+
+.Cost span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.TourItem .PrimaryButton {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    border-radius: 3px;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #bd4116;
+    border-color: #bd4116;
+    margin-bottom: 10px;
+}
+
+.TourItem .PrimaryButton:hover {
+    color: #fff;
+    background-color: #9b3512;
+    border-color: #8f3111;
+}
+
+.Duration {
+    margin-left: 10px;
+}
+
+.Duration svg {
+    vertical-align: middle;
+}
+
+.Duration span{
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+
+
+@media (max-width: 1024px) {
+    .ContentMain h2 {
+        font-size: 20px;
+    }
+
+    .Description {
+        font-size: 15px;
+    }
+
+    .Cost {
+        margin: 30px 0 10px;
+        font-size: 14px;
+    }
+
+    .Cost span{
+        font-size: 14px;
+    }
+
+    .TourItem .PrimaryButton {
+        padding: 8px 13px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .Cost {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 767px) { 
+    .TourItem {
+        display: block;
+    }
+
+    .ImageContainer {
+        width: 100%;
+    }
+    
+    .ContentMain {
+        width: 100%;
+        padding: 0;
+    }
+
+    .Description {
+        -webkit-line-clamp: 3;
+    }
+    
+    .ContentSide {
+        width: 100%;
+    }
+
+    .TourItem .PrimaryButton {
+        padding: 8px 0 ;
+        width: 100%;
+    }
+
+    .Duration {
+        display: none;
+    }
+
+}

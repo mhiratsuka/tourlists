@@ -1,0 +1,24 @@
+.Tour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  max-width: 1440px;
+}
+
+.Tour h1 {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+
+@media (max-width: 1024px) {
+  .Tour h1 {
+    font-size: 32px;
+  }
+}
