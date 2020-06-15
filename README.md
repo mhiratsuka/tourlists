@@ -1,4 +1,4 @@
-# Portfolio
+# Tour List
 Create a simple tour list with React
 
 ## Technology 
