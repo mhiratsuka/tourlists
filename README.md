@@ -6,7 +6,7 @@ Create a simple tour list with React
 * axios
 * MATERIAL-UI
 
-### Features 
+## Features 
 * Responsive application
 * Routing 
   1. "Tour" linked to the first page
