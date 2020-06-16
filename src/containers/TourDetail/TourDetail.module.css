@@ -1,0 +1,124 @@
+.TourDetail {
+    color: black;
+}
+
+.TourDetail h2 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.TourDetail h3 {
+    font-size: 25px;
+    color: #bd4116;
+    margin: 30px 0 20px 0;
+}
+
+.TourDetail h4 {
+    font-size: 20px;
+    color: #bd4116;
+    margin: 15px 0 5px;
+}
+
+.TourDetail p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.TourDetailRating {
+    margin-bottom: 35px;
+}
+
+.TourDetailRatingIcon {
+    vertical-align: text-top;
+}
+
+.TourDetailRatingCount {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.TourDetailTopContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.TourDetailImageContainer {
+    width: 70%;
+}
+
+.TourDetailSideContent {
+    margin-left: 30px;
+}
+
+.TourDetailSideContentItem {
+    margin-bottom: 5px;
+}
+
+.TourDetailCost {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.TourDetailCost span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.TourDetailSideInfo svg {
+    vertical-align: text-bottom;
+}
+
+.TourDetailSideInfo span {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .TourDetail h2 {
+        font-size: 25px;
+    }
+    
+    .TourDetail h3 {
+        font-size: 20px;
+        margin: 20px 0 10px 0;
+    }
+    
+    .TourDetail h4 {
+        font-size: 18px;
+        margin: 15px 0 3px;
+    }
+    
+    .TourDetail p {
+        font-size: 14px;
+    }
+
+    .TourDetailRating {
+        margin-bottom: 25px;
+    }
+
+    .TourDetailTopContent {
+        display: block;
+    }
+    
+    .TourDetailImageContainer {
+        width: 100%;
+    }
+    
+    .TourDetailSideContent {
+        margin-left: 0;
+    }
+
+    .TourDetailCost {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .TourDetailCost span{
+        font-size: 22px;
+    }
+
+    .TourDetailSideInfo span {
+        font-size: 14px;
+    }
+}

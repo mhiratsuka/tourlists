@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
 import styles from './App.module.css';
-import Tour from './containers/Tour/Tour';
+import TourList from './containers/TourList/TourList';
 
 
 class App extends Component {
   render() {
     return (
-      <div className={styles.App}>
-        <Tour />
-      </div>
+      <BrowserRouter>
+        <div className={styles.App}>
+          <TourList />
+        </div>
+      </BrowserRouter>
     );
   }
 }
